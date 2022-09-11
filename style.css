@@ -1,0 +1,12 @@
+header .nav-link.active {
+    color: red;
+}
+
+footer .nav-link {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer .nav-link.active {
+    color: red;
+}

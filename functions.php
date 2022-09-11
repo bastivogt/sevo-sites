@@ -1,6 +1,10 @@
 <?php  
 include_once "./settings.php";
 
+function e($html) {
+    return htmlspecialchars($html, ENT_QUOTES, 'UTF-8', true);
+}
+
 function get_site($slug, $inc = true) {
     if(!empty($slug) && !empty($GLOBALS["SEVO"]["SITES"][$slug])) {
         if($inc) {
@@ -22,5 +26,7 @@ function get_site($slug, $inc = true) {
         }
     }
 }
+
+
 
 ?>
