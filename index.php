@@ -8,8 +8,18 @@ $site= "";
 if(isset($_GET["site"])) {
     $site = $_GET["site"];
 }
-
 $site_title = get_site($site, false)["title"];
+
+/*if(
+    !empty($GLOBALS["SEVO"]["SITES"][$_GET["site"]])
+    &&
+    isset($_GET["site"])
+    ) {
+    $site = $_GET["site"];
+    $site_title = get_site($site, false)["title"];
+}*/
+
+
 
 
 

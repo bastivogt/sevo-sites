@@ -1,5 +1,5 @@
 header .nav-link.active {
-    color: red;
+    color: blueviolet;
 }
 
 footer .nav-link {
@@ -8,5 +8,38 @@ footer .nav-link {
 }
 
 footer .nav-link.active {
-    color: red;
+    color: blueviolet;
 }
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.gallery .card {
+    border: 1px solid grey;
+    margin: 5px;
+}
+
+.gallery .card h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.gallery .card a {
+    display: block;
+    
+} 
+
+.gallery .card a img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0;
+} 
+

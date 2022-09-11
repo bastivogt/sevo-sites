@@ -35,40 +35,40 @@ $GLOBALS["SEVO"] = array(
             "path" => DIR . "/sites/galerie.php",
             "images" => array(
                 "01" => array(
-                    "title" => "Das Bild 01",
-                    "desc" => "Beschreibung von Bild 01 ...",
-                    "preview_path" => DIR . "/images/galerie/preview/01.jpg",
-                    "full_path" => DIR . "/images/galerie/full/01.jpg"
+                    "title" => "Robokopp",
+                    "desc" => "Ein Robotergesicht guckt dich an.",
+                    "preview_path" => "./images/galerie/preview/pexels-alex-knight-2599244.jpg",
+                    "full_path" => "./images/galerie/full/pexels-alex-knight-2599244.jpg"
                 ),
                 "02" => array(
-                    "title" => "Das Bild 02",
-                    "desc" => "Beschreibung von Bild 02 ...",
-                    "preview_path" => DIR . "/images/galerie/preview/02.jpg",
-                    "full_path" => DIR . "/images/galerie/full/02.jpg"
+                    "title" => "Waldtunnel",
+                    "desc" => "Ein mystischer Tunnel aus Bäumen",
+                    "preview_path" => "./images/galerie/preview/pexels-francesco-ungaro-1671324.jpg",
+                    "full_path" => "./images/galerie/full/pexels-francesco-ungaro-1671324.jpg"
                 ),
                 "03" => array(
-                    "title" => "Das Bild 03",
-                    "desc" => "Beschreibung von Bild 03 ...",
-                    "preview_path" => DIR . "/images/galerie/preview/03.jpg",
-                    "full_path" => DIR . "/images/galerie/full/03.jpg"
+                    "title" => "Wald mit Moos",
+                    "desc" => "Ein Bild mit viel Moos im Wald",
+                    "preview_path" => "./images/galerie/preview/pexels-luis-del-río-15286.jpg",
+                    "full_path" => "./images/galerie/full/pexels-luis-del-río-15286.jpg"
                 ),
                 "04" => array(
-                    "title" => "Das Bild 04",
-                    "desc" => "Beschreibung von Bild 04 ...",
-                    "preview_path" => DIR . "/images/galerie/preview/04.jpg",
-                    "full_path" => DIR . "/images/galerie/full/04.jpg"
+                    "title" => "Berge und Nebel",
+                    "desc" => "Ein Gebirge im Nebel oder umgekehrt",
+                    "preview_path" => "./images/galerie/preview/pexels-quang-nguyen-vinh-2175952.jpg",
+                    "full_path" => "./images/galerie/full/pexels-quang-nguyen-vinh-2175952.jpg"
                 ),
                 "05" => array(
-                    "title" => "Das Bild 05",
-                    "desc" => "Beschreibung von Bild 05 ...",
-                    "preview_path" => DIR . "/images/galerie/preview/05.jpg",
-                    "full_path" => DIR . "/images/galerie/full/05.jpg"
+                    "title" => "Straße zum Berg",
+                    "desc" => "Eine Straße, die zum Berg führt",
+                    "preview_path" => "./images/galerie/preview/pexels-sebastian-palomino-1955134.jpg",
+                    "full_path" => "./images/galerie/full/pexels-sebastian-palomino-1955134.jpg"
                 ),
                 "06" => array(
-                    "title" => "Das Bild 06",
-                    "desc" => "Beschreibung von Bild 06 ...",
-                    "preview_path" => DIR . "/images/galerie/preview/06.jpg",
-                    "full_path" => DIR . "/images/galerie/full/06.jpg"
+                    "title" => "Computer",
+                    "desc" => "Computer Bild ;)",
+                    "preview_path" => "./images/galerie/preview/pexels-thisisengineering-3861972.jpg",
+                    "full_path" => "./images/galerie/full/pexels-thisisengineering-3861972.jpg"
                 )
             )
         ),

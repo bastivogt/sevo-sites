@@ -27,15 +27,9 @@ if(
 <body>
     <section>
         <?php if($save): ?>
-            <div>
-                Title: <?php echo $title; ?>
-            </div>
-            <div>
-                Desc: <?php echo $desc; ?>
-            </div>
-            <div>
-                Path: <?php echo $path; ?>
-            </div>
+            <h1><?php echo $title; ?></h1>
+            <p><?php echo $desc; ?></p>
+            <img src="<?php echo $path; ?>" alt="<?php echo $title; ?>">
         <?php else: ?>
             <?php get_site("404"); ?>
         <?php endif; ?>
