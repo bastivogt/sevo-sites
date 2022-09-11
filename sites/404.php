@@ -1,0 +1,1 @@
+<h1><?php echo $GLOBALS["SEVO"]["SITES"]["404"]["title"]; ?></h1>
